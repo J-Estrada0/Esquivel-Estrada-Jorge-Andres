@@ -1,0 +1,24 @@
+class program {
+void turnrigh()
+{
+iterate(3)
+{
+turnleft();
+}
+}
+    program () {
+    iterate(10)
+    {
+    move();
+    if(nextToABeeper)
+    {
+    pickbeeper();
+    }
+    if(frontIsBlocked)
+    {
+     turnrigh();
+    }
+    }
+        turnoff();
+    }
+}

@@ -1,0 +1,27 @@
+class program {
+void turnringt()
+{
+turnleft();
+turnleft();
+turnleft();
+}
+    program () {
+        turnleft();
+        move();
+        turnringt();
+        move();
+        turnringt();
+        move();
+        pickbeeper();
+        turnleft();
+        turnleft();
+        move();
+        turnleft();
+        move();
+        turnleft();
+        move();
+        putbeeper();
+        turnleft();
+        turnoff();
+    }
+}

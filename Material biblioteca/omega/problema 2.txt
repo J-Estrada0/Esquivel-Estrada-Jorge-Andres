@@ -1,0 +1,61 @@
+class program {
+void turnright()
+{
+iterate(3)
+{
+turnleft();
+}
+}
+    program () {
+        iterate(4)
+        {
+        while(frontIsClear)
+        {
+        putbeeper();
+        move();
+        } 
+        if(frontIsBlocked && leftIsBlocked)
+        {
+        putbeeper();
+        turnright();
+        move();
+        turnright();
+        }
+        }
+        if(frontIsBlocked && leftIsClear)
+        {
+        putbeeper();
+        turnleft();
+        move();
+        turnleft();
+        }
+        while(frontIsClear)
+        {
+        putbeeper();
+        move();
+        } 
+        if(frontIsBlocked)
+        {
+        putbeeper();
+        turnright();
+        move();
+        turnright();
+        }
+        while(frontIsClear)
+        {
+        putbeeper();
+        move();
+        } 
+        putbeeper();
+        turnleft();
+        move();
+        turnleft();
+         while(frontIsClear)
+        {
+        putbeeper();
+        move();
+        } 
+        putbeeper();
+        turnoff();
+    }
+}

@@ -1,0 +1,13 @@
+class program {
+void mediavuelta(n)
+        {
+        iterate(n)
+        {
+        turnleft();
+        }
+        }
+    program () {
+    mediavuelta(100);
+        turnoff();
+    }
+}

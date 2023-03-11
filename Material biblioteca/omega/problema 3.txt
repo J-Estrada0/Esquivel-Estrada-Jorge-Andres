@@ -1,0 +1,15 @@
+class program {
+define dejaz()
+{
+if(anyBeepersInBeeperBag)
+{
+putbeeper();
+move();
+dejaz();
+}
+}
+    program () {
+        dejaz();
+        turnoff();
+    }
+}
